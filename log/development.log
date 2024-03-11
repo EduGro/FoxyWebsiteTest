@@ -1,0 +1,151 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ror.krydos.heliohost.org
+Started GET "/" for 97.98.186.230 at 2023-05-28 16:46:14 +0000
+Cannot render console from 97.98.186.230! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 441.0ms | Allocations: 293)
+  Rendered layout layouts/application.html.erb (Duration: 1018.2ms | Allocations: 4901)
+Completed 200 OK in 2624ms (Views: 1023.1ms | ActiveRecord: 0.0ms | Allocations: 8788)
+
+
+Started GET "/" for 97.98.186.230 at 2023-05-28 16:46:49 +0000
+Cannot render console from 97.98.186.230! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 511)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 727)
+
+
+Started GET "/" for 97.98.186.230 at 2023-05-28 16:46:55 +0000
+Cannot render console from 97.98.186.230! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 509)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 724)
+
+
+Started GET "/" for 152.42.58.216 at 2023-05-28 16:50:41 +0000
+Cannot render console from 152.42.58.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 340)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 555)
+
+
+Started GET "/" for 152.42.58.216 at 2023-05-28 16:50:55 +0000
+Cannot render console from 152.42.58.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Parameters: {"hello"=>{}}
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 340)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 555)
+
+
+Started GET "/" for 152.42.58.216 at 2023-05-28 16:51:20 +0000
+Cannot render console from 152.42.58.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 427)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 642)
+
+
+Started GET "/404testpage4525d2fdc" for 18.206.189.73 at 2023-05-28 16:51:28 +0000
+Cannot render console from 18.206.189.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/404testpage4525d2fdc"):
+  
+Started GET "/404javascript.js" for 18.206.189.73 at 2023-05-28 16:51:38 +0000
+Cannot render console from 18.206.189.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/404javascript.js"):
+  
+Started GET "/" for 18.206.189.73 at 2023-05-28 16:51:41 +0000
+Cannot render console from 18.206.189.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 360)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 575)
+
+
+Started GET "/" for 18.206.189.73 at 2023-05-28 16:51:42 +0000
+Cannot render console from 18.206.189.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 360)
+Completed 200 OK in 3ms (Views: 2.3ms | Allocations: 574)
+
+
+Started GET "/" for 18.206.189.73 at 2023-05-28 16:51:42 +0000
+Cannot render console from 18.206.189.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 352)
+Completed 200 OK in 3ms (Views: 2.3ms | Allocations: 566)
+
+
+Started GET "/" for 174.49.255.130 at 2023-05-28 16:51:42 +0000
+Cannot render console from 174.49.255.130! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 892)
+Completed 200 OK in 16ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3048)
+
+
+Started GET "/" for 87.236.176.9 at 2023-05-29 01:08:29 +0000
+Cannot render console from 87.236.176.9! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 58.0ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 72.9ms | Allocations: 1265)
+Completed 200 OK in 833ms (Views: 251.8ms | ActiveRecord: 0.0ms | Allocations: 5235)
+
+
+Started GET "/" for 197.248.45.246 at 2023-05-29 12:27:03 +0000
+Cannot render console from 197.248.45.246! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 32.6ms | Allocations: 293)
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 1324)
+Completed 200 OK in 520ms (Views: 145.3ms | ActiveRecord: 0.0ms | Allocations: 5210)
+
+

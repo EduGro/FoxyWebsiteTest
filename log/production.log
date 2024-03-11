@@ -1,0 +1,135 @@
+W, [2023-05-28T03:27:22.249760 #28475]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-05-28T03:27:23.058724 #29227]  INFO -- : [854da48c-a3e7-42b1-9886-241d47b3f631] Started GET "/hello" for 97.98.186.230 at 2023-05-28 03:27:23 +0000
+I, [2023-05-28T03:27:23.066368 #29227]  INFO -- : [854da48c-a3e7-42b1-9886-241d47b3f631] Processing by HelloController#index as HTML
+I, [2023-05-28T03:27:23.077295 #29227]  INFO -- : [854da48c-a3e7-42b1-9886-241d47b3f631]   Rendered hello/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 181)
+I, [2023-05-28T03:27:23.091456 #29227]  INFO -- : [854da48c-a3e7-42b1-9886-241d47b3f631]   Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 1176)
+I, [2023-05-28T03:27:23.092348 #29227]  INFO -- : [854da48c-a3e7-42b1-9886-241d47b3f631] Completed 200 OK in 26ms (Views: 20.5ms | Allocations: 2473)
+I, [2023-05-28T03:27:23.248876 #29227]  INFO -- : [bd18fa09-d79f-466b-9f8b-f015f10197cd] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:27:23 +0000
+F, [2023-05-28T03:27:23.250440 #29227] FATAL -- : [bd18fa09-d79f-466b-9f8b-f015f10197cd]   
+[bd18fa09-d79f-466b-9f8b-f015f10197cd] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[bd18fa09-d79f-466b-9f8b-f015f10197cd]   
+I, [2023-05-28T03:28:04.450453 #29227]  INFO -- : [2f2554b1-4b0f-478a-a4f7-06e22bd14158] Started GET "/hello" for 97.98.186.230 at 2023-05-28 03:28:04 +0000
+I, [2023-05-28T03:28:04.451635 #29227]  INFO -- : [2f2554b1-4b0f-478a-a4f7-06e22bd14158] Processing by HelloController#index as HTML
+I, [2023-05-28T03:28:04.452709 #29227]  INFO -- : [2f2554b1-4b0f-478a-a4f7-06e22bd14158]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:28:04.454736 #29227]  INFO -- : [2f2554b1-4b0f-478a-a4f7-06e22bd14158]   Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 490)
+I, [2023-05-28T03:28:04.455057 #29227]  INFO -- : [2f2554b1-4b0f-478a-a4f7-06e22bd14158] Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 683)
+I, [2023-05-28T03:28:04.636813 #29227]  INFO -- : [17225c97-510e-44d2-a153-b9149df24c6f] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:28:04 +0000
+F, [2023-05-28T03:28:04.637632 #29227] FATAL -- : [17225c97-510e-44d2-a153-b9149df24c6f]   
+[17225c97-510e-44d2-a153-b9149df24c6f] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[17225c97-510e-44d2-a153-b9149df24c6f]   
+I, [2023-05-28T03:28:13.034535 #29227]  INFO -- : [036f3caf-bdb8-46b3-a973-4b7224f5fcd9] Started GET "/hello" for 97.98.186.230 at 2023-05-28 03:28:13 +0000
+I, [2023-05-28T03:28:13.035920 #29227]  INFO -- : [036f3caf-bdb8-46b3-a973-4b7224f5fcd9] Processing by HelloController#index as HTML
+I, [2023-05-28T03:28:13.037086 #29227]  INFO -- : [036f3caf-bdb8-46b3-a973-4b7224f5fcd9]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:28:13.039323 #29227]  INFO -- : [036f3caf-bdb8-46b3-a973-4b7224f5fcd9]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 477)
+I, [2023-05-28T03:28:13.039759 #29227]  INFO -- : [036f3caf-bdb8-46b3-a973-4b7224f5fcd9] Completed 200 OK in 4ms (Views: 3.1ms | Allocations: 669)
+I, [2023-05-28T03:28:13.151141 #29227]  INFO -- : [7beb6292-8c9a-4a90-9c23-4a28d2b9c251] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:28:13 +0000
+F, [2023-05-28T03:28:13.152144 #29227] FATAL -- : [7beb6292-8c9a-4a90-9c23-4a28d2b9c251]   
+[7beb6292-8c9a-4a90-9c23-4a28d2b9c251] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[7beb6292-8c9a-4a90-9c23-4a28d2b9c251]   
+W, [2023-05-28T03:28:18.051997 #9653]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-05-28T03:28:18.701660 #11256]  INFO -- : [120104d3-5da0-4b08-b991-eaf7269c9c6f] Started GET "/hello" for 97.98.186.230 at 2023-05-28 03:28:18 +0000
+I, [2023-05-28T03:28:18.710003 #11256]  INFO -- : [120104d3-5da0-4b08-b991-eaf7269c9c6f] Processing by HelloController#index as HTML
+I, [2023-05-28T03:28:18.721611 #11256]  INFO -- : [120104d3-5da0-4b08-b991-eaf7269c9c6f]   Rendered hello/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 181)
+I, [2023-05-28T03:28:18.735913 #11256]  INFO -- : [120104d3-5da0-4b08-b991-eaf7269c9c6f]   Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 1261)
+I, [2023-05-28T03:28:18.736905 #11256]  INFO -- : [120104d3-5da0-4b08-b991-eaf7269c9c6f] Completed 200 OK in 27ms (Views: 21.1ms | Allocations: 2558)
+I, [2023-05-28T03:28:18.843588 #11256]  INFO -- : [ab1247fb-ecfa-4cd1-975d-a74d22b147df] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:28:18 +0000
+F, [2023-05-28T03:28:18.845440 #11256] FATAL -- : [ab1247fb-ecfa-4cd1-975d-a74d22b147df]   
+[ab1247fb-ecfa-4cd1-975d-a74d22b147df] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[ab1247fb-ecfa-4cd1-975d-a74d22b147df]   
+I, [2023-05-28T03:28:58.937260 #11256]  INFO -- : [2b1f81c4-6b89-427d-a777-dfbada60119a] Started GET "/" for 97.98.186.230 at 2023-05-28 03:28:58 +0000
+F, [2023-05-28T03:28:58.938107 #11256] FATAL -- : [2b1f81c4-6b89-427d-a777-dfbada60119a]   
+[2b1f81c4-6b89-427d-a777-dfbada60119a] ActionController::RoutingError (No route matches [GET] "/"):
+[2b1f81c4-6b89-427d-a777-dfbada60119a]   
+I, [2023-05-28T03:29:07.157592 #11256]  INFO -- : [83031e1c-95ae-4e10-a5e4-20251c3ed443] Started GET "/" for 97.98.186.230 at 2023-05-28 03:29:07 +0000
+F, [2023-05-28T03:29:07.158272 #11256] FATAL -- : [83031e1c-95ae-4e10-a5e4-20251c3ed443]   
+[83031e1c-95ae-4e10-a5e4-20251c3ed443] ActionController::RoutingError (No route matches [GET] "/"):
+[83031e1c-95ae-4e10-a5e4-20251c3ed443]   
+W, [2023-05-28T03:29:10.550548 #25308]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-05-28T03:29:11.216439 #25433]  INFO -- : [ece1ef75-9a50-4b94-961b-4e2d1eb798d4] Started GET "/" for 97.98.186.230 at 2023-05-28 03:29:11 +0000
+I, [2023-05-28T03:29:11.225090 #25433]  INFO -- : [ece1ef75-9a50-4b94-961b-4e2d1eb798d4] Processing by HelloController#index as HTML
+I, [2023-05-28T03:29:11.237626 #25433]  INFO -- : [ece1ef75-9a50-4b94-961b-4e2d1eb798d4]   Rendered hello/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 181)
+I, [2023-05-28T03:29:11.252811 #25433]  INFO -- : [ece1ef75-9a50-4b94-961b-4e2d1eb798d4]   Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 1261)
+I, [2023-05-28T03:29:11.253886 #25433]  INFO -- : [ece1ef75-9a50-4b94-961b-4e2d1eb798d4] Completed 200 OK in 28ms (Views: 22.5ms | Allocations: 2558)
+I, [2023-05-28T03:29:11.367941 #25433]  INFO -- : [182f472f-66d7-4b91-b670-fdb7ec516c6f] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:29:11 +0000
+F, [2023-05-28T03:29:11.369603 #25433] FATAL -- : [182f472f-66d7-4b91-b670-fdb7ec516c6f]   
+[182f472f-66d7-4b91-b670-fdb7ec516c6f] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[182f472f-66d7-4b91-b670-fdb7ec516c6f]   
+I, [2023-05-28T03:29:24.879341 #25433]  INFO -- : [0604c404-76bb-43ee-9afe-3e14a1b949eb] Started GET "/" for 35.237.4.214 at 2023-05-28 03:29:24 +0000
+I, [2023-05-28T03:29:24.880444 #25433]  INFO -- : [0604c404-76bb-43ee-9afe-3e14a1b949eb] Processing by HelloController#index as HTML
+I, [2023-05-28T03:29:24.881347 #25433]  INFO -- : [0604c404-76bb-43ee-9afe-3e14a1b949eb]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:29:24.882597 #25433]  INFO -- : [0604c404-76bb-43ee-9afe-3e14a1b949eb]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 317)
+I, [2023-05-28T03:29:24.882875 #25433]  INFO -- : [0604c404-76bb-43ee-9afe-3e14a1b949eb] Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 510)
+I, [2023-05-28T03:30:36.708749 #25433]  INFO -- : [3a2a62ab-7754-4efa-9669-b45fe47c10c2] Started GET "/" for 97.98.186.230 at 2023-05-28 03:30:36 +0000
+I, [2023-05-28T03:30:36.710276 #25433]  INFO -- : [3a2a62ab-7754-4efa-9669-b45fe47c10c2] Processing by HelloController#index as HTML
+I, [2023-05-28T03:30:36.711441 #25433]  INFO -- : [3a2a62ab-7754-4efa-9669-b45fe47c10c2]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:30:36.713419 #25433]  INFO -- : [3a2a62ab-7754-4efa-9669-b45fe47c10c2]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 465)
+I, [2023-05-28T03:30:36.713820 #25433]  INFO -- : [3a2a62ab-7754-4efa-9669-b45fe47c10c2] Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 657)
+I, [2023-05-28T03:30:36.841177 #25433]  INFO -- : [3f6257f9-efac-4e75-9ac6-382b195c47bd] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:30:36 +0000
+F, [2023-05-28T03:30:36.842354 #25433] FATAL -- : [3f6257f9-efac-4e75-9ac6-382b195c47bd]   
+[3f6257f9-efac-4e75-9ac6-382b195c47bd] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[3f6257f9-efac-4e75-9ac6-382b195c47bd]   
+I, [2023-05-28T03:30:41.967841 #25433]  INFO -- : [12b8d8ba-57b1-4201-b3f2-fac96e4f0cdd] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:30:41 +0000
+F, [2023-05-28T03:30:41.968908 #25433] FATAL -- : [12b8d8ba-57b1-4201-b3f2-fac96e4f0cdd]   
+[12b8d8ba-57b1-4201-b3f2-fac96e4f0cdd] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[12b8d8ba-57b1-4201-b3f2-fac96e4f0cdd]   
+I, [2023-05-28T03:43:36.215754 #25433]  INFO -- : [00fea8d3-0182-4eaa-957b-5401df1133ea] Started GET "/" for 183.171.24.33 at 2023-05-28 03:43:36 +0000
+I, [2023-05-28T03:43:36.217500 #25433]  INFO -- : [00fea8d3-0182-4eaa-957b-5401df1133ea] Processing by HelloController#index as HTML
+I, [2023-05-28T03:43:36.218780 #25433]  INFO -- : [00fea8d3-0182-4eaa-957b-5401df1133ea]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:43:36.220544 #25433]  INFO -- : [00fea8d3-0182-4eaa-957b-5401df1133ea]   Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 302)
+I, [2023-05-28T03:43:36.221128 #25433]  INFO -- : [00fea8d3-0182-4eaa-957b-5401df1133ea] Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 494)
+I, [2023-05-28T03:43:36.476225 #25433]  INFO -- : [53c478fb-0a4d-4050-af87-dd65a4434a91] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 183.171.24.33 at 2023-05-28 03:43:36 +0000
+F, [2023-05-28T03:43:36.477497 #25433] FATAL -- : [53c478fb-0a4d-4050-af87-dd65a4434a91]   
+[53c478fb-0a4d-4050-af87-dd65a4434a91] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[53c478fb-0a4d-4050-af87-dd65a4434a91]   
+I, [2023-05-28T03:43:36.763792 #25433]  INFO -- : [07cd059e-0490-4f88-a1d3-cfcf7c06eb01] Started GET "/favicon.ico" for 183.171.24.33 at 2023-05-28 03:43:36 +0000
+F, [2023-05-28T03:43:36.764850 #25433] FATAL -- : [07cd059e-0490-4f88-a1d3-cfcf7c06eb01]   
+[07cd059e-0490-4f88-a1d3-cfcf7c06eb01] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[07cd059e-0490-4f88-a1d3-cfcf7c06eb01]   
+I, [2023-05-28T03:59:25.264045 #25433]  INFO -- : [d1728f97-9cf0-4669-841b-3c5467508ca4] Started GET "/" for 97.98.186.230 at 2023-05-28 03:59:25 +0000
+I, [2023-05-28T03:59:25.265798 #25433]  INFO -- : [d1728f97-9cf0-4669-841b-3c5467508ca4] Processing by HelloController#index as HTML
+I, [2023-05-28T03:59:25.267243 #25433]  INFO -- : [d1728f97-9cf0-4669-841b-3c5467508ca4]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T03:59:25.269587 #25433]  INFO -- : [d1728f97-9cf0-4669-841b-3c5467508ca4]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 471)
+I, [2023-05-28T03:59:25.270004 #25433]  INFO -- : [d1728f97-9cf0-4669-841b-3c5467508ca4] Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 663)
+I, [2023-05-28T03:59:25.387990 #25433]  INFO -- : [f8d4e3ab-b9ba-4f35-8b79-f7256d40f4c7] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 97.98.186.230 at 2023-05-28 03:59:25 +0000
+F, [2023-05-28T03:59:25.389018 #25433] FATAL -- : [f8d4e3ab-b9ba-4f35-8b79-f7256d40f4c7]   
+[f8d4e3ab-b9ba-4f35-8b79-f7256d40f4c7] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[f8d4e3ab-b9ba-4f35-8b79-f7256d40f4c7]   
+I, [2023-05-28T04:12:41.617828 #25433]  INFO -- : [46b63477-a2f7-4a48-aee5-bdb81b1bdbb7] Started GET "/" for 2601:2c1:9080:7c90:8046:8430:8e72:8dd9 at 2023-05-28 04:12:41 +0000
+I, [2023-05-28T04:12:41.935279 #25433]  INFO -- : [46b63477-a2f7-4a48-aee5-bdb81b1bdbb7] Processing by HelloController#index as HTML
+I, [2023-05-28T04:12:41.936373 #25433]  INFO -- : [46b63477-a2f7-4a48-aee5-bdb81b1bdbb7]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T04:12:41.937715 #25433]  INFO -- : [46b63477-a2f7-4a48-aee5-bdb81b1bdbb7]   Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 382)
+I, [2023-05-28T04:12:41.938016 #25433]  INFO -- : [46b63477-a2f7-4a48-aee5-bdb81b1bdbb7] Completed 200 OK in 3ms (Views: 2.1ms | Allocations: 574)
+I, [2023-05-28T04:12:42.040767 #25433]  INFO -- : [c59903ef-2e4a-4221-9a8b-f0eab85b9d73] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 2601:2c1:9080:7c90:8046:8430:8e72:8dd9 at 2023-05-28 04:12:42 +0000
+F, [2023-05-28T04:12:42.041708 #25433] FATAL -- : [c59903ef-2e4a-4221-9a8b-f0eab85b9d73]   
+[c59903ef-2e4a-4221-9a8b-f0eab85b9d73] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[c59903ef-2e4a-4221-9a8b-f0eab85b9d73]   
+I, [2023-05-28T04:12:42.427087 #25433]  INFO -- : [a223b6de-7743-45bb-9cb5-9c8741316bda] Started GET "/favicon.ico" for 2601:2c1:9080:7c90:8046:8430:8e72:8dd9 at 2023-05-28 04:12:42 +0000
+F, [2023-05-28T04:12:42.427823 #25433] FATAL -- : [a223b6de-7743-45bb-9cb5-9c8741316bda]   
+[a223b6de-7743-45bb-9cb5-9c8741316bda] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[a223b6de-7743-45bb-9cb5-9c8741316bda]   
+I, [2023-05-28T04:17:42.010537 #25433]  INFO -- : [01bfd82c-b7f1-4e73-b69b-a8d4e29a8fb5] Started GET "/" for 174.165.79.105 at 2023-05-28 04:17:42 +0000
+I, [2023-05-28T04:17:42.011910 #25433]  INFO -- : [01bfd82c-b7f1-4e73-b69b-a8d4e29a8fb5] Processing by HelloController#index as HTML
+I, [2023-05-28T04:17:42.012880 #25433]  INFO -- : [01bfd82c-b7f1-4e73-b69b-a8d4e29a8fb5]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T04:17:42.014090 #25433]  INFO -- : [01bfd82c-b7f1-4e73-b69b-a8d4e29a8fb5]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 302)
+I, [2023-05-28T04:17:42.014465 #25433]  INFO -- : [01bfd82c-b7f1-4e73-b69b-a8d4e29a8fb5] Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 494)
+I, [2023-05-28T04:17:42.100767 #25433]  INFO -- : [aeb2f670-def2-43ca-8551-f0489e8e0819] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 174.165.79.105 at 2023-05-28 04:17:42 +0000
+F, [2023-05-28T04:17:42.101503 #25433] FATAL -- : [aeb2f670-def2-43ca-8551-f0489e8e0819]   
+[aeb2f670-def2-43ca-8551-f0489e8e0819] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[aeb2f670-def2-43ca-8551-f0489e8e0819]   
+I, [2023-05-28T04:17:42.191212 #25433]  INFO -- : [54d97f7b-e9a4-4031-a887-c57fffe9da37] Started GET "/favicon.ico" for 174.165.79.105 at 2023-05-28 04:17:42 +0000
+F, [2023-05-28T04:17:42.191970 #25433] FATAL -- : [54d97f7b-e9a4-4031-a887-c57fffe9da37]   
+[54d97f7b-e9a4-4031-a887-c57fffe9da37] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[54d97f7b-e9a4-4031-a887-c57fffe9da37]   
+I, [2023-05-28T04:21:05.747897 #25433]  INFO -- : [d4b8c90b-b64c-4a49-8ef9-b4f18bd54915] Started GET "/" for 114.125.186.114 at 2023-05-28 04:21:05 +0000
+I, [2023-05-28T04:21:05.749982 #25433]  INFO -- : [d4b8c90b-b64c-4a49-8ef9-b4f18bd54915] Processing by HelloController#index as HTML
+I, [2023-05-28T04:21:05.751435 #25433]  INFO -- : [d4b8c90b-b64c-4a49-8ef9-b4f18bd54915]   Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+I, [2023-05-28T04:21:05.753437 #25433]  INFO -- : [d4b8c90b-b64c-4a49-8ef9-b4f18bd54915]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 302)
+I, [2023-05-28T04:21:05.753867 #25433]  INFO -- : [d4b8c90b-b64c-4a49-8ef9-b4f18bd54915] Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 494)
+I, [2023-05-28T04:21:06.600534 #25433]  INFO -- : [9bdaf3d0-55cf-4a16-93b6-d5cf9f75f27d] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 114.125.186.114 at 2023-05-28 04:21:06 +0000
+F, [2023-05-28T04:21:06.601688 #25433] FATAL -- : [9bdaf3d0-55cf-4a16-93b6-d5cf9f75f27d]   
+[9bdaf3d0-55cf-4a16-93b6-d5cf9f75f27d] ActionController::RoutingError (No route matches [GET] "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css"):
+[9bdaf3d0-55cf-4a16-93b6-d5cf9f75f27d]   
+I, [2023-05-28T04:21:06.936140 #25433]  INFO -- : [17a72dc0-0843-41c1-99c0-49276e619e92] Started GET "/favicon.ico" for 114.125.186.114 at 2023-05-28 04:21:06 +0000
+F, [2023-05-28T04:21:06.937111 #25433] FATAL -- : [17a72dc0-0843-41c1-99c0-49276e619e92]   
+[17a72dc0-0843-41c1-99c0-49276e619e92] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[17a72dc0-0843-41c1-99c0-49276e619e92]   
